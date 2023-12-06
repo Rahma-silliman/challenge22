@@ -1,0 +1,28 @@
+body{
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+header{
+   background-color: #0dace9;
+   height: 100px;
+   justify-content: center;
+   align-items: center;
+}
+ul{
+   list-style: none;
+ 
+}
+.card ul :nth-child(1){
+   display: flex;
+   background-color: #0dace9;
+   border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+}
+.side-bottom{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+.said-top{
+   display: flex;
+}
